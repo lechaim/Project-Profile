@@ -1,0 +1,65 @@
+body {
+   margin: 0;
+   padding: 0;
+  
+}
+
+/* container */
+
+#container{
+    
+    background-color: #8AD5C5;
+
+}
+
+/* Nav Bar */
+
+.nav-bar{
+    background-color: aquamarine;
+    position: relative;
+    left: 600px;
+    top: 40px;
+    
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+
+
+/* Profile information */
+
+.profileInformation{
+    position: relative;
+    left: 220px;
+    height: 740px;
+    width: 360px;
+    background-color: aquamarine;
+}
+
+.profileInformation img{
+    display:block;
+    margin:auto;
+    padding-top: 15px;
+    height: 20rem;
+    width: 19rem;
+    border-radius: 150%; /* encircle the image */
+    
+}
+
+/* Content */
+
+.content{
+    position: relative;
+    left: 600px;
+    bottom: 700px;
+    height: 700px;
+    width: 750px;
+    background-color: aquamarine;
+}
