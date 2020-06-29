@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Grid practive with Traversy</title>
+        
+        <style>
+            .wrapper{
+                display: grid; /* Won't make any difference by themselves until they have a width */
+                grid-template-columns: 70% 30%;
+                
+                grid-gap: 1em; /* es lo mismo que abajo*/
+                /*
+                grid-column-gap: 1em;
+                grid-row-gap: 1em;
+                */
+            }
+
+            .wrapper > div{
+                background-color: #eee;
+                padding: 1em;
+            }
+
+            .wrapper > div:nth-child(odd){  /* Add a property do the elementes in the () in this case it will add a grey color to all the element in an odd position */
+                background: #ddd;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vitae hic similique voluptatibus. Placeat aut rerum dicta? Ad neque sed quidem nesciunt illo, nobis tempore ut doloremque aliquid quas necessitatibus.
+            </div>
+
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum, nesciunt minus optio quidem quisquam accusamus commodi placeat inventore in sit suscipit quod. Eaque, ab. Quaerat corrupti accusantium laborum aut?
+            </div>
+
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vitae hic similique voluptatibus.
+                Placeat aut rerum dicta? Ad neque sed quidem nesciunt illo, nobis tempore ut doloremque aliquid quas
+                necessitatibus.
+            </div>
+
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum, nesciunt minus optio quidem
+                quisquam accusamus commodi placeat inventore in sit suscipit quod. Eaque, ab. Quaerat corrupti
+                accusantium laborum aut?
+            </div>
+        </div>
+        
+
+    </body>
+</html>

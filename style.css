@@ -7,18 +7,20 @@ body {
 /* container */
 
 #container{
-    
-    background-color: #8AD5C5;
-
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #333;
+    height: 1000px;
+    width: 1500px;
 }
+
+
 
 /* Nav Bar */
 
 .nav-bar{
+    
     background-color: aquamarine;
-    position: relative;
-    left: 600px;
-    top: 40px;
     
 }
 
@@ -27,7 +29,7 @@ body {
 }
 
 .nav-bar ul li{
-    display: inline-block;
+    
     padding: 0 50px;
 }
 
@@ -36,7 +38,7 @@ body {
 /* Profile information */
 
 .profileInformation{
-    position: relative;
+    
     left: 220px;
     height: 740px;
     width: 360px;
@@ -56,10 +58,7 @@ body {
 /* Content */
 
 .content{
-    position: relative;
-    left: 600px;
-    bottom: 700px;
-    height: 700px;
-    width: 750px;
+    display: inline-grid;
+    padding: 10px;
     background-color: aquamarine;
 }
