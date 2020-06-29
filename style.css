@@ -10,18 +10,14 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #333;
-    height: 1000px;
-    width: 1500px;
+    width: 95%;
+    
 }
-
-
 
 /* Nav Bar */
 
 .nav-bar{
-    
     background-color: aquamarine;
-    
 }
 
 .nav-bar ul{
@@ -29,16 +25,13 @@ body {
 }
 
 .nav-bar ul li{
-    
     padding: 0 50px;
 }
-
 
 
 /* Profile information */
 
 .profileInformation{
-    
     left: 220px;
     height: 740px;
     width: 360px;
@@ -52,7 +45,6 @@ body {
     height: 20rem;
     width: 19rem;
     border-radius: 150%; /* encircle the image */
-    
 }
 
 /* Content */
