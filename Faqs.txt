@@ -1,0 +1,16 @@
+1) Why do navbar menu has vertical options instead of being horizontally?
+
+Approach:  			Right now: 
+
+A B C D 			A
+				B
+				C
+				D
+
+How I fixed it?
+
+
+2) Why is there a wide gap between the About me information and the content even though I have already applied a grid-gap of 1rem?
+
+Answer: the gap was to low so it was filling the provided grid (1fr 2 fr) leaving the space. 
+Fix: grid was update to 1fr 4fr.
